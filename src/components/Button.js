@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
+// 2. handled the props
 const Button = ({ onPress, children }) => {
   const { textStyle, buttonStyle } = styles;
   return (

@@ -32,7 +32,7 @@ const AlbumDetail = ({ album }) => {
 
       <CardSection>
         {
-          // prop called onPress
+          // 1. created prop called onPress
         }
         <Button onPress={() => Linking.openURL(url)}>
           Buy Now
